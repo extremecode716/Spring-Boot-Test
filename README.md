@@ -168,12 +168,12 @@ Ctrl+Alt+O: import 정리(Optimize imports)
 Shift+Enter: Start new line   
 Ctrl+Shift+]/[: Select till code block end/start   
 Ctrl+Numpad+/-: Expand/Collapse   
-Ctrl+Alt+Shift+T: 사용 가능한 리팩토링 옵션 표시(rename)
-Ctrl+Y: 캐럿의 라인 삭제
-Ctrl+D:선택된 블럭을 복제
-Ctrl+Alt+V: Extract Variable
-Ctrl+Alt+M: Extract Method
-   
+Ctrl+Alt+Shift+T: 사용 가능한 리팩토링 옵션 표시(rename)   
+Ctrl+Y: 캐럿의 라인 삭제   
+Ctrl+D:선택된 블럭을 복제   
+Ctrl+Alt+V: Extract Variable   
+Ctrl+Alt+M: Extract Method   
+      
 #### Navigation (이동 관련)   
 Ctrl+N: Class로 이동   
 Ctrl+Shift+N: 파일로 이동   
@@ -190,7 +190,7 @@ Ctrl+F12: File structure popup
 Ctrl+Shift+H: Method hiearchy   
 F4/Ctrl+Enter: Edit source/View source   
 F11: Toggle bookmark   
-Shift+F11: Show bookmarks   
+Shift+F11: Show bookmarks    
    
 #### Compile and Run ( 컴파일 및 실행 관련 )   
 Ctrl+F9: 프로젝트 빌드   
