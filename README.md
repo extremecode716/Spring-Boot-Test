@@ -20,8 +20,9 @@ groupId: hello (모든 프로젝트 중에서 당신의 프로젝트를 식별�
 artifactId: hello-spring (버전 없는 jar파일의 이름, 특수문자x,소문자로만 작성)   
 version: (배포를 하려면 숫자와 점으로 구성된 일반적인 버전, SNAPSHOT: 아직 배포되기 전 임시로 만들어 놓은 버전, 개발 중이라는 의미)
    
-
-  
+## 추가 설치한 플로그인 정리
+.ignore, Atom Material Icons, Awesome Console, GitToolBox, Grep Console, Key Promoter X, Rainbow Brackets, Sticky Selection, Translator
+    
 ## MEMO   
 etc memo:    
 JUnit, Assertj, concurrent.*, Optional<T>, Anonymous Object, lambda     
