@@ -173,6 +173,7 @@ Ctrl+Y: 캐럿의 라인 삭제
 Ctrl+D:선택된 블럭을 복제   
 Ctrl+Alt+V: Extract Variable   
 Ctrl+Alt+M: Extract Method   
+Alt+Enter: Static import   
       
 #### Navigation (이동 관련)   
 Ctrl+N: Class로 이동   
