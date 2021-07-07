@@ -168,6 +168,11 @@ Ctrl+Alt+O: import 정리(Optimize imports)
 Shift+Enter: Start new line   
 Ctrl+Shift+]/[: Select till code block end/start   
 Ctrl+Numpad+/-: Expand/Collapse   
+Ctrl+Alt+Shift+T: 사용 가능한 리팩토링 옵션 표시(rename)
+Ctrl+Y: 캐럿의 라인 삭제
+Ctrl+D:선택된 블럭을 복제
+Ctrl+Alt+V: Extract Variable
+Ctrl+Alt+M: Extract Method
    
 #### Navigation (이동 관련)   
 Ctrl+N: Class로 이동   
@@ -199,4 +204,303 @@ Alt+F7/Ctrl+F7: 사용처 탐색/파일 내 사용처 탐색
 Ctrl+Shift+F7: 파일 내 사용처 하이라이트   
 Ctrl+Alt+F7: 사용처 조회(Show usages)   
 
-
+## 단축키 비교 [IntelliJ, VSCode, Eclipse, VS]
+   
+<table>
+<thead>
+<tr>
+<th><strong>기능</strong></th>
+<th><strong>IntelliJ</strong></th>
+<th><strong>VSCode</strong></th>
+<th><strong>Eclipse</strong></th>
+<th><strong>VS</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>자동 완성, 인텔리센스</td>
+<td>Ctrl + Space</td>
+<td></td>
+<td>Ctrl + Space</td>
+<td>Alt + Right</td>
+</tr>
+<tr>
+<td>SmartType code completion</td>
+<td>Ctrl + Shift + Space</td>
+<td></td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>Reformat, Code Tidy</td>
+<td>Ctrl + Alt + L</td>
+<td>Ctrl + Shift + F</td>
+<td>Ctrl + Shift + F</td>
+<td></td>
+</tr>
+<tr>
+<td>Quick Fix</td>
+<td>Alt + Enter</td>
+<td></td>
+<td>Ctrl + 1</td>
+<td></td>
+</tr>
+<tr>
+<td>Navigate | Declaration (Open Declaration)</td>
+<td>Ctrl + B</td>
+<td></td>
+<td>F3</td>
+<td></td>
+</tr>
+<tr>
+<td>Go to file(Open Resource)</td>
+<td>Ctrl + Shift + N</td>
+<td>Ctrl + P</td>
+<td>Ctrl + Shift + R</td>
+<td></td>
+</tr>
+<tr>
+<td>Find in Path (Search Project)</td>
+<td>Ctrl + Shift + F</td>
+<td></td>
+<td>Ctrl + H</td>
+<td></td>
+</tr>
+<tr>
+<td>Rename</td>
+<td>Shift + F6</td>
+<td>F2</td>
+<td>Ctrl + Alt + R</td>
+<td>F2 or Ctrl + R, R</td>
+</tr>
+<tr>
+<td>Extract Variable</td>
+<td>Ctrl + Alt + V</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Extract Method</td>
+<td>Ctrl + Alt + M</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Quick Documentation</td>
+<td>Ctrl + Q</td>
+<td></td>
+<td>F2</td>
+<td></td>
+</tr>
+<tr>
+<td>검색(형 기반의 전역 검색)<br>Go to class</td>
+<td>Ctrl + N</td>
+<td></td>
+<td>Ctrl + Shift + T</td>
+<td>Ctrl + ,</td>
+</tr>
+<tr>
+<td>Go to symbol</td>
+<td>Ctrl + Alt + Shift + N</td>
+<td></td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>이전 작업 위치(이거 짱짱맨)</td>
+<td>Ctrl + Alt + ←</td>
+<td></td>
+<td>Alt + ←</td>
+<td>Ctrl + -</td>
+</tr>
+<tr>
+<td>다음 작업 위치(반대)</td>
+<td>Ctrl + Alt + →</td>
+<td></td>
+<td>Alt + →</td>
+<td>Shift + Ctrl + -</td>
+</tr>
+<tr>
+<td>코드 한 줄 혹은 선택 영역을 한 줄 위로 이동</td>
+<td>Ctrl + Shift + ↑</td>
+<td>Alt + ↑</td>
+<td>Alt + ↑</td>
+<td>Alt + ↑</td>
+</tr>
+<tr>
+<td>코드 한 줄 혹은 선택 영역을 한 줄 아래로 이동</td>
+<td>Ctrl + Shift + ↓</td>
+<td>Alt + ↓</td>
+<td>Alt + ↓</td>
+<td>Alt + ↓</td>
+</tr>
+<tr>
+<td>코드 한 줄 혹은 선택 영역 복사</td>
+<td>Ctrl + D</td>
+<td>Ctrl + C<br>Alt + Shift + ↓</td>
+<td>Ctrl + D</td>
+<td>Ctrl + C</td>
+</tr>
+<tr>
+<td><strong>기능</strong></td>
+<td><strong>IntelliJ</strong></td>
+<td><strong>VSCode</strong></td>
+<td><strong>Eclipse</strong></td>
+<td><strong>VS</strong></td>
+</tr>
+<tr>
+<td>도구(메뉴나 다이얼로그 항목 등) 찾기<br>Search Action (Quick Access)</td>
+<td>Ctrl + Shift + A</td>
+<td>Ctrl + Shift + P</td>
+<td>Ctrl + 3</td>
+<td>Ctrl + Q</td>
+</tr>
+<tr>
+<td>Search everywhere (Quick Search Plugin)</td>
+<td>Double Shift</td>
+<td></td>
+<td>Ctrl + Shift + L</td>
+<td></td>
+</tr>
+<tr>
+<td>View Hierarchy (Show Hierarchy)</td>
+<td>Ctrl + H</td>
+<td></td>
+<td>Ctrl + T</td>
+<td></td>
+</tr>
+<tr>
+<td>Find Usages (Find References)</td>
+<td>Alt + F7</td>
+<td></td>
+<td>Ctrl + Shift + G</td>
+<td></td>
+</tr>
+<tr>
+<td>Find</td>
+<td>Ctrl + F</td>
+<td>Ctrl + F</td>
+<td>Ctrl + F</td>
+<td></td>
+</tr>
+<tr>
+<td>Find next</td>
+<td>F3</td>
+<td></td>
+<td>Ctrl + K</td>
+<td></td>
+</tr>
+<tr>
+<td>Find previous</td>
+<td>Shift + F3</td>
+<td></td>
+<td>Ctrl + Shift + K</td>
+<td></td>
+</tr>
+<tr>
+<td>Replace</td>
+<td>Ctrl + R</td>
+<td></td>
+<td>Ctrl + F</td>
+<td></td>
+</tr>
+<tr>
+<td>Find in path (Search)</td>
+<td>Ctrl + Shift + F</td>
+<td></td>
+<td>Ctrl + H</td>
+<td></td>
+</tr>
+<tr>
+<td>문법 해결(네임스페이스 찾기/ 인터페이스 구현 등)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Shift + Alt + F10</td>
+</tr>
+<tr>
+<td>솔루션 탐색기</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ctrl + W, S</td>
+</tr>
+<tr>
+<td>출력 창</td>
+<td></td>
+<td>Ctrl + `</td>
+<td></td>
+<td>Ctrl + W, O</td>
+</tr>
+<tr>
+<td>솔루션 탐색기 검색</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ctrl + ;</td>
+</tr>
+<tr>
+<td>주석 처리</td>
+<td>Ctrl + /</td>
+<td>Ctrl + /</td>
+<td>Ctrl + /</td>
+<td>Ctrl + E, C</td>
+</tr>
+<tr>
+<td>주석 제거</td>
+<td>Ctrl + /</td>
+<td>Ctrl + /</td>
+<td>Ctrl + /</td>
+<td>Ctrl + E, U</td>
+</tr>
+<tr>
+<td>코드 아웃라인(네임스페이스, 클래스, 메서드 등등) 토글</td>
+<td></td>
+<td></td>
+<td>Ctrl + M, M</td>
+<td></td>
+</tr>
+<tr>
+<td>파일 내 전체 코드 아웃라인 토글</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ctrl + M, L</td>
+</tr>
+<tr>
+<td>테스트 탐색기</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Alt + S, W, T<br>(메뉴 단축키 경로)</td>
+</tr>
+<tr>
+<td>팀 탐색기</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ctrl + , Ctrl + M</td>
+</tr>
+<tr>
+<td>전체 테스트 실행</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ctrl + R, A</td>
+</tr>
+<tr>
+<td>캐럿 기준 현재 테스트 실행</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ctrl + R, T</td>
+</tr>
+<tr>
+<td>코드 렌즈 테스트 결과 팝업</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Alt + 1</td>
+</tr>
+</tbody></table>
