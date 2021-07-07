@@ -25,7 +25,7 @@ version: (배포를 하려면 숫자와 점으로 구성된 일반적인 버전,
     
 ## MEMO   
 etc memo:    
-JUnit, Assertj, concurrent.*, Optional<T>, Anonymous Object, lambda     
+JUnit, Assertj, concurrent.*, Optional<T>, Anonymous Object, lambda, Method Reference     
    
 #### IntelliJ Gradle 대신에 자바 직접 실행  
  최근 IntelliJ 버전은 Gradle을 통해서 실행 하는 것이 기본 설정이다. 이렇게 하면 실행속도가 느리다.   
